@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sales"
+            android:icon="@drawable/ic_sales"
+            android:title="SALES" />
+        <item
+            android:id="@+id/purchase"
+            android:icon="@drawable/ic_purchase"
+            android:title="PURCHASE" />
+        <item
+            android:id="@+id/records"
+            android:icon="@drawable/ic_records"
+            android:title="RECORDS" />
+    </group>
+
+    <item android:title="IGNORE">
+        <menu>
+            <item
+                android:id="@+id/customers"
+                android:icon="@drawable/ic_customers"
+                android:title="CUSTOMERS" />
+            <item
+                android:id="@+id/products"
+                android:icon="@drawable/ic_items"
+                android:title="PRODUCTS" />
+        </menu>
+    </item>
+
+
+</menu>
